@@ -1,0 +1,53 @@
+ body{
+    background:  rgba(166, 97, 97, 0.236);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    justify-content: center;
+    padding: 0 20px;
+    margin: 10px;
+  }
+
+  img{
+    width: 100%;
+border-radius: 15px;
+  }
+  section{
+border-radius: 10px;
+padding: 20px;
+width: 680px;
+margin: auto;
+background: rgb(255, 255, 255);
+  }
+ 
+.colunas{
+
+display: grid;
+grid:10px;
+columns: 2;
+list-style-type: none;
+grid-template-columns: repeat(2, 4fr);
+
+  }
+
+  .pr{
+    font-size: 18px;
+    color: #a953ff;
+    margin: -10 ;
+  }
+  @media only screen and (max-width: 500px) {
+ body{
+  padding: 800px 30px;
+
+ }
+    }
+    
